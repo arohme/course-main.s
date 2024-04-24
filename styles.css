@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  header {
+    background: linear-gradient(45deg, #FF9D6C, #F76D5E, #D73845, #8E2248);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .head{
+    background: linear-gradient(45deg, #FF9D6C, #F76D5E, #D73845, #8E2248);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .course-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .Upcomming-Courses{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .course-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-title {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .course-real-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-bottom: 5px;
+  }
+  
+  .course-price {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  .course-buy-btn {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-buy-btn:hover {
+    background-color: #45a049;
+  }
+  
+  /* CSS */
+#searchInput {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  #categorySelect {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+  
+  #FromWhere {
+    width: 200px; /* Adjust width as needed */
+    padding: 10px;
+    font-size: 16px; /* Adjust font size as needed */
+  }
+
+
+/* Targeting paragraphs with the class "announc" */
+.announc {
+    /* Define styles for the paragraph */
+    background-color: #ffffcc; /* Set background color to a light yellow */
+    padding: 10px; /* Add padding to create space around the text */
+    border: 1px solid #cccccc; /* Add border to the paragraph */
+    border-radius: 5px; /* Add rounded corners to the border */
+    font-size: 16px; /* Set font size */
+    font-weight: bold; /* Set font weight to bold */
+    color: #333333; /* Set text color */
+}
+
+/* Optional: Add margin to create space around the paragraph */
+.announc {
+    margin: 10px 0;
+}
+
+
+.pagetag {
+  /* Define styles for the links */
+  color: blue; /* Change the text color to blue */
+  text-decoration: none; /* Remove default underline */
+  padding: 5px 10px; /* Add padding to create space around the text */
+  margin-right: 10px; /* Add margin to create space between links */
+  border: 1px solid blue; /* Add border to the links */
+  border-radius: 5px; /* Add rounded corners to the border */
+}
+
+/* Styling for hover state */
+.pagetag:hover {
+  background-color: #f0f0f0; /* Change background color on hover */
+}
+
+a.freematerials {
+  color: black; /* Set text color to black */
+  background-color: lightgray; /* Add background color */
+  padding: 5px 10px; /* Add padding to create some space around the text */
+  border-radius: 5px; /* Add rounded corners */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Styling for when the anchor tag with class "freematerials" is hovered */
+a.freematerials:hover {
+  color: white; /* Change text color on hover */
+  background-color: gray; /* Change background color on hover */
+}

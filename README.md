@@ -1,1 +1,1 @@
-# course-main.s
+# courses
